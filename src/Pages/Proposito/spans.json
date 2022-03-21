@@ -1,0 +1,20 @@
+[
+    {
+        "title":"PREVENIR ATRASOS",
+        "bodyText":"O atraso na entrega é o principal incômodo das pessoas em relação a serviços de manutenção, construção civil, marcenaria, etc. A Nexus acredita  que o atraso na entrega está associado à falta ou o mau planejamento de obras e outras tarefas.",
+        "img":"clock.svg",
+        "right":false
+    },
+    {
+        "title":"MELHORAR COMUNICAÇÃO",
+        "bodyText":"Durante a execução de um serviço, é essencial que profissional e cliente mantenham contato, mas muitas vezes isso é dificultado. A Nexus quer que profissionais e clientes consigam se comunicar e assim, resolver problemas com mais facilidade.",
+        "img":"communication.svg",
+        "right":true
+    },
+    {
+        "title":"AUMENTAR A CONFIANÇA",
+        "bodyText":"A confiança é um fator decisivo na hora de contratar um serviço, tanto é que a maior parte das pessoas busca profissionais por indicação. A Nexus acredita que a clareza sobre o profissional e sobre a execução do serviço aumenta a confiança entre cliente e prestador de serviço.",
+        "img":"like.svg",
+        "right":false
+    }
+]

@@ -1,0 +1,237 @@
+.ctn-footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #222222;
+    min-height: 200px;
+    align-items: center;
+    overflow: hidden;
+    align-content: center;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 100px 50px 100px;
+    /* position: relative; */
+}
+
+.membros-footer{
+    margin-left: 120px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    min-height: 80%;
+    letter-spacing: 0.15px;
+}
+.content-membros span{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0px;
+}
+
+#desc-footer-project{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+.contato-footer{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    flex-direction: column;
+}
+
+.contato-footer img{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    cursor:pointer;
+}
+.contato-footer span{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media screen and (max-width:1100px) {
+    .logo-footer img{
+        width: 120px;
+        height: 120px;
+    }
+    /* .footer-content{
+        margin: 50px 100px 50px 100px;
+    } */
+
+    .membros-footer{
+        margin-left: 80px;
+    }
+    .contato-footer{
+        right: 50px;
+    }
+}
+@media screen and (max-width:950px) {
+    .logo-footer img{
+        width: 110px;
+        height: 110px;
+    }
+    .footer-content{
+        margin: 25px 50px 25px 50px;
+    }
+
+    .contato-footer{
+        right: 50px;
+    }
+    .content-membros{
+        margin-left: 0px !important;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .logo-footer img{
+        width: 100px;
+        height: 100px;
+    }
+    .footer-content{
+        margin: 25px 25px 25px 25px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .logo-footer img{
+        width: 100px;
+        height: 100px;
+    }
+    .membros-footer{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:768px) {
+    .membros-footer .row{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .content-membros.left-100{
+        position: absolute;
+        left: 50%;
+    }
+    .contato-footer{
+        position: relative;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .logo-footer{
+        display: flex;
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .membros-footer .row{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .membros-footer{
+        font-size: 16px;
+    }
+    .content-membros span{
+        font-size: 13px;
+    }
+    .logo-footer img{
+        width: 80px;
+        height: 80px;
+    }
+    .content-membros.left-100{
+        position: absolute;
+        left: 55%;
+    }
+    .contato-footer{
+        margin-top: 25px;
+    }
+    .contato-footer img{
+        width: 25px;
+        height: 25px;
+    }
+    #desc-footer-project{
+        font-size:12px;
+    }
+}
+@media screen and (max-width:520px) {
+    .content-membros.left-100{
+        left: 60%;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .membros-footer .row{
+        margin-left: 0;
+    }
+    .membros-footer{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .content-membros.left-100{
+        left: 61%;
+    }
+    .logo-footer img{
+        padding: 2px;
+        width: 80px;
+        height: 80px;
+    }
+    .content-membros span{
+        font-size: 12px;
+    }
+    .membros-footer{
+        margin-left: 20px;
+    }
+    .membros-footer{
+        font-size: 14px;
+    }
+    .contato-footer span{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:400px) {
+    .footer-content{
+        margin: 25px 10px 25px 10px;
+    }
+    .content-membros.left-100{
+        position: relative;
+        left: 0%;
+    }
+    #desc-footer-project{
+        width: 80%;
+    }
+}
+@media screen and (max-width:325px) {
+    .logo-footer img{
+        width: 60px;
+        height: 60px;
+    }
+  
+}
+@media screen and (max-width:300px) {
+    .content-membros span{
+        font-size: 11px;
+    }
+    .membros-footer{
+        font-size: 13px;
+    }
+    #desc-footer-project{
+        font-size: 11px;
+    }
+    .contato-footer span{
+        font-size: 11px;
+    }
+  
+}

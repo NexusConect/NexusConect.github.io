@@ -1,0 +1,28 @@
+[
+    {
+        "img":"build.svg",
+        "title":"Criar trabalho",
+        "bodyText":"Informe o que precisa ser feito e outros detalhes."
+    },
+    {
+        "img":"buscar.svg",
+        "title":"Buscar",
+        "bodyText":"Busque profissionais e envie o trabalho criado para quantos quiser."
+    },
+    {
+        "img":"negociar.svg",
+        "title":"Negociar",
+        "bodyText":"Receba a proposta de prestadores e envie sugestões de mudanças."
+    },
+    {
+        "img":"contratar.svg",
+        "title":"Contratar",
+        "bodyText":"Aceite a melhor proposta recebida e negociada."
+    },
+    {
+        "img":"acompanha-reportar.svg",
+        "title":"Acompanhar",
+        "bodyText":"Acompanhe o andamento de cada etapa do serviço."
+    }
+
+]

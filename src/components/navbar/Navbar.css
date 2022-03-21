@@ -1,0 +1,226 @@
+.ctn-navbar{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbar-content{
+    display: flex;
+    align-items: center;
+}
+
+.logo-navbar{
+    width: 200px;
+    height: 70px;
+    /* cursor: pointer; */
+    /* padding-left: 30px; */
+    
+}
+.logo-ctn{
+    margin-left: 100px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo-ctn::after{
+    content: "";
+    border-bottom: 2px solid #FFC033;
+    width:0;
+    position: absolute;
+    bottom: 0;
+    transition: width 250ms ease-in-out;
+    z-index: 1000;
+}
+.logo-ctn:hover::after{
+   width: 100%;
+}
+
+.links-ctn{
+    display: flex;
+    right: 100px;
+    position: absolute;
+}
+.links-ctn span{
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    width: 150px;
+    text-decoration: none;
+    color:white;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    align-content: center;
+}
+.links-ctn span::after{
+    content: "";
+    border-bottom: 2px solid #FFC033;
+    width:0;
+    position: absolute;
+    bottom: 0;
+    transition: width 250ms ease-in-out;
+}
+.links-ctn span:hover::after{
+   width: 100%;
+}
+.menu-dropdown{
+    display: flex;
+    position: absolute;
+    right: 3%;
+}
+
+.menu-icon{
+    width: 35px;
+    height: 35px;
+    color:#FFC033;
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    .logo-navbar{
+        width: 150px;
+    }
+    .links-ctn span{
+        font-size: 0.8rem;
+        width: 120px;
+    }
+    .logo-ctn{
+        margin-left: 30px;
+    }
+    .links-ctn{
+        right: 30px;
+    }
+
+}
+@media screen and (max-width:760px) {
+    .logo-navbar{
+        width: 120px;
+    }
+    .links-ctn span{
+        font-size: 0.7rem;
+        margin-left: 10px;
+        width: 110px;
+    }
+}
+@media screen and (max-width:600px) {
+    .ctn-navbar{
+        flex-direction: column;
+    }
+    .navbar-content{
+        position: fixed;
+        right: -100%;
+        width: 200px;
+        min-height: 100vh; 
+        flex-direction: column !important;
+        /* justify-content: center; */
+        align-items: center !important;
+        align-content: center !important;
+        transition: all 0.25s ease-in-out;
+        top:0%;
+    }
+    .links-ctn{
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        right: 0;
+        margin-top: 0px;
+        align-content: center;
+    }
+    .links-ctn span{
+        margin: 0 ;
+        /* color: #000; */
+        font-size: 1rem;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .navbar-content.active{
+        right: 0%;
+        background-color: #4d4c4c;
+        z-index: 1;
+    }
+    .logo-navbar{
+        margin-top: 60px;
+        width: 180px;
+    }
+ 
+    .menu-icon{
+        display: block ;
+        z-index: 2;
+    }
+    .menu-dropdown.active{
+        color: #000;
+        right: -100%;
+        display: none;
+    
+    }
+    .menu-icon.close{
+        position: absolute;
+        right: 4%;
+        /* color: #000; */
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+    .links-ctn span{
+        font-size: 0.9rem;
+    }
+
+    .logo-navbar{
+        width: 150px;
+    }
+
+    /* .menu-icon.close{
+    } */
+
+}
+
+@media screen and (max-width:350px) {
+    .navbar-content{
+        width: 180px;
+    }
+
+    .links-ctn span{
+        font-size: 0.85rem;
+    }
+
+    .logo-navbar{
+        width: 130px;
+    }
+
+    /* .menu-icon.close{
+    } */
+
+}
+
+
+@media screen and (max-width:280px) {
+    .navbar-content{
+        width: 150px;
+    }
+    
+    .links-ctn span{
+        font-size: 0.8rem;
+    }
+
+    .logo-navbar{
+        width: 120px;
+    }
+
+    .menu-icon.close{
+        width: 30px;
+        height: 30px;
+    }
+
+}

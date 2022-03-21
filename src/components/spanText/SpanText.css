@@ -1,0 +1,271 @@
+.ctn-span-text{
+    width: 80%;
+    height:200px;
+    background-color: #222222;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+    padding: 30px;
+    position: relative;
+}
+.right{
+    border-radius: 20px 0px 0px 20px !important;
+    align-self: flex-end;
+}
+.span-icon img{
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.span-body{
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+.span-title{
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+.span-content{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+@media screen and (max-width:1100px) {
+    .ctn-span-text{
+        height: 230px;
+    }
+ 
+    .span-content{
+        font-size: 16px;
+    }
+ 
+}
+
+@media screen and (max-width:900px) {
+ 
+    .span-icon img{
+        width: 50px;
+        height: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .span-content{
+        font-size: 14px;
+    }
+
+    .span-title{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .ctn-span-text{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .ctn-span-text{
+        height: 280px;
+    }
+    .span-icon img{
+        width: 45px;
+        height: 45px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .ctn-span-text{
+        height: 350px;
+    }
+    .span-icon img{
+        width: 45px;
+        height: 45px;
+    }
+    .span-icon{
+        display: flex;
+        align-self: flex-start;
+        top: 50px;
+        left: 30px;
+        position: absolute;
+    }
+    .span-content{
+        position: absolute;
+        left: 40px;
+        top:150px;
+        width: 70%;
+    }
+    .span-content.right-mobile{
+        position: absolute;
+        right: 50px;
+        left: auto;
+    }
+    .span-body{
+        margin-left: 100px;
+        width: 100%;
+    }
+    .span-body.right-mobile{
+        margin-left: 0;
+        margin-right: 100px;
+    }
+   
+    .span-icon.right-mobile{
+        position: absolute;
+        left: auto;
+        right: 30px;
+    }
+    .span-title{
+        font-size: 20px;
+        position: absolute;
+        display: flex;
+        align-self: flex-start;
+        top:50px;
+        margin-bottom: 20px;
+    }
+
+    .span-title.right-mobile{
+        align-self: flex-end;
+        margin: 0;
+        right: 130px;
+        left: auto;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+   
+    .span-icon{
+
+        left: 20px;
+
+    }
+    .span-content{
+        position: absolute;
+        
+    }
+    .span-content.right-mobile{
+        position: absolute;
+        right: 50px;
+        left: auto;
+    }
+    .span-body{
+        margin-left: 100px;
+        width: 100%;
+    }
+    .span-icon.right-mobile{
+        position: absolute;
+        left: auto;
+        right: 30px;
+    }
+    .span-title{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    
+    .span-content{
+        position: absolute;
+        width: 80%;
+        font-size: 14px;
+    }
+    .span-body{
+        margin-left: 80px;
+        width: 100%;
+    }
+    .span-body.right-mobile{
+        margin-left: 0;
+        margin-right: 80px;
+    }
+    .span-title{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    .ctn-span-text{
+        width: 75%;
+    }
+    .span-icon img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .span-content{
+        position: absolute;
+        font-size: 12px;
+        top:100px;
+    }
+    .span-body{
+        margin-left: 70px;
+        width: 100%;
+    }
+ 
+    .span-title{
+        font-size: 14px;
+    }
+    .span-title.right-mobile{
+        align-self: flex-end;
+        margin: 0;
+        right: 110px;
+        left: auto;
+    }
+}
+
+@media screen and (max-width:330px) {
+    
+    .span-title.right-mobile{
+        align-self: flex-end;
+        margin: 0;
+        right: 100px;
+        left: auto;
+    }
+ 
+}
+
+@media screen and (max-width:300px) {
+    .ctn-span-text{
+        width: 70%;
+        height: 400px;
+    }
+
+    .span-icon.right-mobile{
+        position: absolute;
+        margin: 0;
+        right: 5px;
+    }
+    .span-content{
+        font-size: 11.5px;
+    }
+    .span-content.right-mobile{
+        right: 20px;
+    }
+
+    .span-title{
+        font-size: 13px;
+        left: 80px;
+    }
+    .span-title.right-mobile{
+        align-self: flex-end;
+        margin: 0;
+        right: 70px;
+        left: auto;
+    }
+}

@@ -1,0 +1,28 @@
+[
+    {
+        "img":"build.svg",
+        "title":"Ver propostas de trabalho",
+        "bodyText":"Receba propostas de trabalho. "
+    },
+    {
+        "img":"plano-de-trabalho.svg",
+        "title":"Criar plano de trabalho",
+        "bodyText":"Crie um plano de trabalho por etapas e envie ao cliente."
+    },
+    {
+        "img":"negociar.svg",
+        "title":"Negociar",
+        "bodyText":"Adeque seu plano de trabalho de acordo com as sugestões do cliente que achar válidas."
+    },
+    {
+        "img":"acompanha-reportar.svg",
+        "title":"Reportar",
+        "bodyText":"Indique quando terminou um determinado passo de uma etapa do plano."
+    },
+    {
+        "img":"caso.svg",
+        "title":"Abrir caso",
+        "bodyText":"Surgiu algum imprevisto e precisa estender o prazo? Abra um caso para informar o cliente."
+    }
+
+]
