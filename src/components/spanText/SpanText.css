@@ -108,7 +108,8 @@
         position: absolute;
         left: 40px;
         top:150px;
-        width: 70%;
+        font-size:18px;
+        width: 80%;
     }
     .span-content.right-mobile{
         position: absolute;
@@ -130,7 +131,7 @@
         right: 30px;
     }
     .span-title{
-        font-size: 20px;
+        font-size: 24px;
         position: absolute;
         display: flex;
         align-self: flex-start;
@@ -148,12 +149,7 @@
 
 
 @media screen and (max-width:500px) {
-   
-    .span-icon{
-
-        left: 20px;
-
-    }
+  
     .span-content{
         position: absolute;
         
@@ -170,20 +166,33 @@
     .span-icon.right-mobile{
         position: absolute;
         left: auto;
-        right: 30px;
     }
+
     .span-title{
-        font-size: 20px;
+        font-size: 22px;
+    }
+    .span-content{
+        font-size: 16px;
     }
 }
 
 
 @media screen and (max-width:450px) {
-    
+    .ctn-span-text{
+        height: 300px;
+    }
+    .span-icon{
+        left: 0;
+    }
+    .span-icon.right-mobile{
+        left: auto;
+        right: 0;
+    }
     .span-content{
         position: absolute;
         width: 80%;
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 25px;
     }
     .span-body{
         margin-left: 80px;
@@ -202,6 +211,7 @@
 @media screen and (max-width:430px) {
     .ctn-span-text{
         width: 75%;
+        height: 280px;
     }
     .span-icon img{
         width: 30px;
@@ -210,32 +220,50 @@
     
     .span-content{
         position: absolute;
-        font-size: 12px;
+        font-size: 16px;
         top:100px;
     }
     .span-body{
         margin-left: 70px;
         width: 100%;
     }
- 
-    .span-title{
-        font-size: 14px;
-    }
-    .span-title.right-mobile{
-        align-self: flex-end;
-        margin: 0;
-        right: 110px;
-        left: auto;
-    }
-}
-
-@media screen and (max-width:330px) {
-    
     .span-title.right-mobile{
         align-self: flex-end;
         margin: 0;
         right: 100px;
         left: auto;
+    }
+   
+}
+
+@media screen and (max-width:375px) {
+    
+    .span-title.right-mobile{
+        align-self: flex-end;
+        margin: 0;
+        right: 60px;
+        left: auto;
+    }
+
+    .span-title{
+        font-size: 18px;
+    }
+    .span-content{
+        font-size: 15px;
+    }
+    .span-body{
+        margin-left: 30px;
+    }
+ 
+}
+
+@media screen and (max-width:330px) {
+    
+    .span-title{
+        font-size: 15px;
+    }
+    .span-content{
+        font-size: 14px;
     }
  
 }
@@ -243,29 +271,20 @@
 @media screen and (max-width:300px) {
     .ctn-span-text{
         width: 70%;
-        height: 400px;
+        height: 300px;
     }
 
-    .span-icon.right-mobile{
-        position: absolute;
-        margin: 0;
-        right: 5px;
+    .span-body{
+        margin-left: 30px;
     }
     .span-content{
-        font-size: 11.5px;
+        font-size: 12px;
+    }
+    .span-title{
+        font-size: 14px;
     }
     .span-content.right-mobile{
         right: 20px;
     }
 
-    .span-title{
-        font-size: 13px;
-        left: 80px;
-    }
-    .span-title.right-mobile{
-        align-self: flex-end;
-        margin: 0;
-        right: 70px;
-        left: auto;
-    }
 }

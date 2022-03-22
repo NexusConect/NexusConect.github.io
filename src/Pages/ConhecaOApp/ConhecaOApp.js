@@ -36,19 +36,19 @@ const ConhecaOApp = (props)=>{
                             </div>
                         </a>
                     </div>
-                    <div data-aos='fade-up' 
+                </div>
+            </div>
+            <div data-aos='fade-up' 
                         data-aos-delay='300'
-                        data-aos-duration='500' >
+                        data-aos-duration='500'
+                        className="apps-img" >
                         <div className="img-1">
                             <img src="app2.svg"/>
                         </div>
                         <div className="img-2">
                             <img src="app3.svg"/>
                         </div>
-                    </div>
-                   
                 </div>
-            </div>
         </div>
     )
 }
